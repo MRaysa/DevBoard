@@ -73,7 +73,7 @@
                                 </div>
                                 <div>
                                     <p class="text-[#00303C] font-[500] text-[14px] opacity-75">Task Assigned</p>
-                                    <h2 class="font-[700] text-[28px]">05</h2>
+                                    <h2 id="TaskCounterDecrease" class="font-[700] text-[28px]">05</h2>
                                 </div>
                             </div>
 
@@ -122,7 +122,7 @@
                                         <h3 class="text-[16px] font-[500] text-[#00303C]">21 March 2025</h3>
                                     </div>
                                     <div>
-                                        <button
+                                        <button id="completedTaskBtn"
                                             class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                                             Completed
                                         </button>
@@ -152,7 +152,7 @@
                                         <h3 class="text-[16px] font-[500] text-[#00303C]">21 March 2025</h3>
                                     </div>
                                     <div>
-                                        <button
+                                        <button id="completedTaskBtn"
                                             class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                                             Completed
                                         </button>
@@ -182,7 +182,7 @@
                                         <h3 class="text-[16px] font-[500] text-[#00303C]">21 March 2025</h3>
                                     </div>
                                     <div>
-                                        <button
+                                        <button id="completedTaskBtn"
                                             class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                                             Completed
                                         </button>
@@ -213,7 +213,7 @@
                                         <h3 class="text-[16px] font-[500] text-[#00303C]">21 March 2025</h3>
                                     </div>
                                     <div>
-                                        <button
+                                        <button id="completedTaskBtn"
                                             class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                                             Completed
                                         </button>
@@ -244,7 +244,7 @@
                                         <h3 class="text-[16px] font-[500] text-[#00303C]">21 March 2025</h3>
                                     </div>
                                     <div>
-                                        <button
+                                        <button id="completedTaskBtn"
                                             class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                                             Completed
                                         </button>
@@ -275,7 +275,7 @@
                                         <h3 class="text-[16px] font-[500] text-[#00303C]">21 March 2025</h3>
                                     </div>
                                     <div>
-                                        <button
+                                        <button id="completedTaskBtn"
                                             class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                                             Completed
                                         </button>
@@ -288,21 +288,21 @@
                     </div>
 
                     <!-- Activity Log -->
-                    <div class="bg-white rounded-md p-2">
+                    <div id="activityLog" class="bg-white rounded-md p-2">
                         <div class="flex items-center gap-3 mb-4 justify-center mt-4">
                             <img src="./assets/activity.png" alt="">
                             <h1 class="font-bold text-2xl">Activity Log</h1>
                         </div>
-                        <div class="text-center mb-4">
+                        <div id="clearHistorybtn" class="text-center mb-4">
                             <button class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">Clear
                                 History</button>
                         </div>
 
-                        <div class="py-2 flex flex-col gap-4">
-                            <p class="bg-[#F4F7FF] rounded-md p-2">You have Complete The Task Add Dark Mode at 12:48:15
+                        <div id="activityLog" class="py-2 flex flex-col gap-4">
+                            <!-- <p class="bg-[#F4F7FF] rounded-md p-2">You have Complete The Task Add Dark Mode at 12:48:15
                                 PM</p>
                             <p class="bg-[#F4F7FF] rounded-md p-2">You have Complete The Task Add Dark Mode at 12:48:15
-                                PM</p>
+                                PM</p> -->
                         </div>
                     </div>
                 </div>
@@ -318,6 +318,7 @@
     <script src="./js/changeTheme.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/dateDaynamicalWay.js"></script>
+    <script src="./js/completeBtn.js"></script>
 </body>
 
 </html>
