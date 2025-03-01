@@ -43,7 +43,8 @@
 
             <!-- Buttons -->
             <div class="">
-                <button class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
+                <button id="backToDeskBtn"
+                    class="px-5 py-3 bg-[#3752FD] text-white font-[500] text-[16px] rounded-[8px]">
                     Back To Desk
                 </button>
             </div>
@@ -60,7 +61,8 @@
         <div class="mx-auto items-center py-6 px-10 shadow-md bg-white rounded-lg">
             <h1 class="text-2xl font-bold">Question-1: What are the different ways to select an element in the DOM?</h1>
             <hr class="border-dashed border-[1.2px] border-[#3752FD33] my-6">
-            <p class="">We can select an element in the DOM in several ways like getElementById for unique elements,
+            <p class="font-medium text-gray-500">We can select an element in the DOM in several ways like getElementById
+                for unique elements,
                 getElementsByClassName or getElementsByTagName for collections , querySelector or querySelectorAll for
                 CSS selectors , getElementsByName for form elements with a name attribute and there are some DOM
                 Traversal like parentElement,children,nextElementSibling,previousElementSibling etc. </p>
@@ -70,7 +72,8 @@
             <h1 class="text-2xl font-bold">Question-2: What is the difference between innerHTML, innerText, and
                 textContent ?</h1>
             <hr class="border-dashed border-[1.2px] border-[#3752FD33] my-6">
-            <p class="">The main difference of this innerHTML is used to get or set HTML content, including elements and
+            <p class="font-medium text-gray-500">The main difference of this innerHTML is used to get or set HTML
+                content, including elements and
                 formatting.
                 innerText gives only the visible text, ignoring hidden elements and treating everything as plain text.
                 textContent shows
@@ -83,7 +86,8 @@
         <div class="mx-auto items-center py-6 px-10 shadow-md bg-white rounded-lg">
             <h1 class="text-2xl font-bold">Question-3: What is event delegation in the DOM?</h1>
             <hr class="border-dashed border-[1.2px] border-[#3752FD33] my-6">
-            <p class="">Event delegation means adding an event to a parent element instead of each child element. When a
+            <p class="font-medium text-gray-500">Event delegation means adding an event to a parent element instead of
+                each child element. When a
                 child is clicked, the
                 event bubbles up to the parent, which handles it. This makes the code faster, saves memory, and works
                 even if new
@@ -93,7 +97,8 @@
         <div class="mx-auto items-center py-6 px-10 shadow-md bg-white rounded-lg">
             <h1 class="text-2xl font-bold">Question-4: What is event bubbling in the DOM?</h1>
             <hr class="border-dashed border-[1.2px] border-[#3752FD33] my-6">
-            <p class="">Event bubbling means when you click on a child element, the event first happens on the child,
+            <p class=" font-medium text-gray-500">Event bubbling means when you click on a child element, the event
+                first happens on the child,
                 then moves up to its
                 parent, grandparent, and so on. This lets parent elements react when their child is clicked.</p>
         </div>
@@ -102,11 +107,15 @@
             <h1 class="text-2xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
             </h1>
             <hr class="border-dashed border-[1.2px] border-[#3752FD33] my-6">
-            <p class="">In JavaScript allows creating elements using document.createElement(), adding them with
+            <p class="font-medium text-gray-500">In JavaScript allows creating elements using document.createElement(),
+                adding them
+                with
                 appendChild(), and removing them
                 with remove(). This helps modify webpages dynamically.</p>
         </div>
     </section>
+
+    <script src="./js/backToDesk.js"></script>
 
 </body>
 
