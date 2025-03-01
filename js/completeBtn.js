@@ -36,7 +36,7 @@ completeButtons.forEach((button) => {
     button.disabled = true;
     button.style.backgroundColor = "#9BA8F8";
 
-    alert("Updated successfully");
+    alert("Board Updated Successfully!!");
 
     const remainingTasks = document.querySelectorAll(
       ".bg-\\[\\#F4F7FF\\] button:not([disabled])"
