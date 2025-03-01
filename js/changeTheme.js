@@ -1,6 +1,6 @@
 const body = document.getElementById("body");
 const themeButton = document.getElementById("changeThemeButton");
-const test = 0;
+
 themeButton.addEventListener("click", function () {
   const bgColor = themeRGBColor();
   body.style.backgroundColor = bgColor;
